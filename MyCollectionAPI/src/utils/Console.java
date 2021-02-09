@@ -12,17 +12,29 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * This class implements reading input values from
+ * standard keyboard
+ * @author KokHeng
+ *
+ */
+
 public class Console {
 
 	/** Define static variables. */
 
 	// the file directory for registering borrowing file.
-	public static final String BORROW_DIRECTORY ="C:\\Users\\KokHeng\\eclipse-workspace\\My Collections\\src\\registeredReaderBorrowABook.txt";
+	public static final String BORROW_DIRECTORY = "C:\\Users\\<YOURUSERNAME>\\<workspace-directory>\\<YOURPROJECTNAME>\\src\\registeredReaderBorrowABook.json";
 	// the file directory for registering returning file.
-	public static final String RETURN_DIRECTORY ="C:\\Users\\KokHeng\\eclipse-workspace\\My Collections\\src\\registeredReaderReturnABook.txt";
+	public static final String RETURN_DIRECTORY = "C:\\Users\\<YOURUSERNAME>\\<workspace-directory>\\<YOURPROJECTNAME>\\src\\registeredReaderReturnABook.json";
 	// the file directory for registering waiting list file.
-	public static final String WAITING_DIRECTORY ="C:\\Users\\KokHeng\\eclipse-workspace\\My Collections\\src\\registeredReaderWaitingABook.txt";
-
+	public static final String WAITING_DIRECTORY = 			"C:\\Users\\<YOURUSERNAME>\\<workspace-directory>\\<YOURPROJECTNAME>\\src\\registeredReaderWaitingABook.json";
+/**
+ * Method to read input values and return integer value
+ * @param prompt the prompt message to input value
+ * @throw InputMismatchException if type is mismatched
+ * @return the integer value
+ */
 	public static int readInt(String prompt) {
 		boolean validInt = false;
 		int input = 0;
