@@ -3,6 +3,13 @@ package views;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class Menu represents a list of menu option,
+ * it allows user(s) to select from the menu option
+ * @author KokHeng
+ *
+ */
+
 public class Menu {
 
 	private List<String> theList;
