@@ -1,4 +1,5 @@
 package datastructurenalgorithms;
+
 /**
  * Class to represent a linked list with a link from
  * each node to the next node.
